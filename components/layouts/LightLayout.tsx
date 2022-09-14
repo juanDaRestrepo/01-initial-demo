@@ -1,5 +1,6 @@
+import { FC, PropsWithChildren } from "react"
 
-export const LightLayout = ({children}) => {
+export const LightLayout: FC<PropsWithChildren> = ({children}) => {
   return (
     <div style={{
         backgroundColor: 'rgb(226, 223, 210)',
